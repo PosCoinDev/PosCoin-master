@@ -106,7 +106,10 @@ int64_t AmountFromValue(const Value& value)
 
 Value ValueFromAmount(int64_t amount)
 {
-    return (double)amount / (double)COIN;
+ //   return (double)amount / (double)COIN;
+      return 200 / 200;
+
+
 }
 
 std::string HexBits(unsigned int nBits)
